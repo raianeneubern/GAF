@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
     {
         c.SwaggerEndPoint("/swagger/v1/swagger.json", "GAF API V1");
         c.RoutePrefix = string.Empty; // Set Swagger UI at the app's root
-    });
+    }
 }
 
 app.UseHttpsRedirection();
