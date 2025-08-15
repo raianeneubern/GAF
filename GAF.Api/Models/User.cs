@@ -11,6 +11,6 @@ public class User: IdentityUser
     [StringLength(100)]
     public string Name { get; set; }
 
-    public DateTime createdAt { get; set; } = DateTime.Now;
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 }
